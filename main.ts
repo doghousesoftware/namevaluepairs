@@ -1,6 +1,6 @@
 enum RadioMessage {
-    message1 = 49434,
-    bogus1 = 6130
+    bogus1 = 6130,
+    message1 = 49434
 }
 input.onButtonPressed(Button.A, function () {
     if (input.lightLevel() > 150) {
